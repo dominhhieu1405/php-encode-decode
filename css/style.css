@@ -1,0 +1,47 @@
+body{
+font-size:13px;
+font-family:arial
+}
+header{
+margin-bottom:10px
+}
+header .logo{
+height:80px
+}
+h1.title-site{
+font-size:20px
+}
+h3{
+font-size:19px
+}
+.tab-pane{
+padding:10px;
+border-left:1px solid #ccc;
+border-right:1px solid #ccc;
+border-bottom:1px solid #ccc
+}
+footer{
+padding-top:20px;
+padding-bottom:20px;
+margin-top:10px
+}
+.img-loading{
+position:fixed;
+height:100%;
+width:100%;
+background-color:rgba(0,0,0,0.75);
+top:0;
+left:0;
+z-index:9999
+}
+.img-loading .il-content{
+position:absolute;
+transform:translate(-50%,-50%);
+top:50%;
+left:50%;
+color:#fff
+}
+.img-loading img{
+margin-bottom:10px;
+height:50px
+}
